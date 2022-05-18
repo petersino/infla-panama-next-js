@@ -8,6 +8,7 @@ import MobileNav from "../NavBar/MobileNav";
 
 const HeaderElement = styled.header`
   background-color: #242d57;
+  height: 69px;
   ${tw`fixed top-0 z-30 w-full text-gray-200`}
 `;
 
@@ -15,7 +16,7 @@ const Nav = tw.nav`
   max-w-screen-xl 
   px-6 
   sm:px-8 
-  lg:px-16 
+  lg:px-16
   mx-auto 
   grid 
   grid-flow-col 

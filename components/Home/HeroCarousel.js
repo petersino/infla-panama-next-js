@@ -7,72 +7,66 @@ import Link from "../../components/Link";
 const HeroCarousel = () => {
   return (
     <>
-      <div>
+      <div className="md:hidden">
         <Carousel showThumbs={false}>
           <div className="h-screen mt-16 ">
             <img
               alt="1"
-              src="https://asus.com/WebsitesBanner/global/banners/vm5yq7mmayfnenyd/vm5yq7mmayfnenyd-0_0_mobile_1X.jpg"
+              src="https://www.asus.com/WebsitesBanner/global/banners/kkq25whkid9wgvfa/kkq25whkid9wgvfa-0_0_mobile_1X.jpg?webp"
               width="730"
               height="584"
               className="object-cover h-full"
             />
-            <p className="legend">Legend 1</p>
           </div>
-          <div>
-            <Image
+          <div className="h-screen mt-16">
+            <img
               alt="1"
               src="https://picsum.photos/730/548"
               width="730"
               height="584"
+              className="object-cover h-full"
             />
-            <p className="legend">Legend 2</p>
           </div>
-          <div>
-            <Image
+          <div className="h-screen mt-16">
+            <img
               alt="1"
-              src="https://picsum.photos/730/548" /* hola https://asus.com/WebsitesBanner/global/banners/vm5yq7mmayfnenyd/vm5yq7mmayfnenyd-0_0_mobile_1X.jpg */
+              src="https://picsum.photos/730/548"
               width="730"
               height="584"
+              className="object-cover h-full"
             />
-            <p className="legend">Legend 3</p>
           </div>
         </Carousel>
       </div>
 
-      <div className=" mt-16 w-full">
+      <div className="hidden md:inline-flex mt-16">
         <Carousel showThumbs={false}>
-          <div>
-            <Image
+          <div className="h-screen">
+            <img
               alt="1"
-              src="https://loremflickr.com/1330/600"
+              src="https://www.asus.com/WebsitesBanner/global/banners/kkq25whkid9wgvfa/kkq25whkid9wgvfa-0_0_desktop_1X.jpg?webp"
+              width="1351"
+              height="777"
+              className="object-cover h-full"
+            />
+          </div>
+          <div className="h-screen">
+            <img
+              alt="1"
+              src="https://www.asus.com/WebsitesBanner/global/banners/zmfyszjhwnvo6dbd/zmfyszjhwnvo6dbd-0_0_desktop_1X.jpg"
               width="1330"
               height="600"
+              className="object-cover h-full"
             />
-            <p className="legend">Legend 1</p>
           </div>
-          <div>
-            <Image
+          <div className="h-screen">
+            <img
               alt="1"
-              layout="fill"
-              src="https://loremflickr.com/1330/600"
+              src="https://www.asus.com/WebsitesBanner/global/banners/ygodzrdxgmqomrir/ygodzrdxgmqomrir-0_0_desktop_1X.jpg"
               width="1330"
               height="600"
+              className="object-cover h-full"
             />
-            <p className="legend">Legend 2</p>
-          </div>
-          <div>
-            <Image
-              alt="1"
-              layout="fill"
-              src="https://loremflickr.com/1330/600"
-              width="1333"
-              height="600"
-            />
-            <p className="legend">Legend 3</p>
-          </div>
-          <div>
-            <p> hola</p>
           </div>
         </Carousel>
       </div>
