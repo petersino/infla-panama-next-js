@@ -9,7 +9,7 @@ import MobileNav from "../NavBar/MobileNav";
 const HeaderElement = styled.header`
   background-color: #242d57;
   height: 69px;
-  ${tw`fixed top-0 z-30 w-full text-gray-200`}
+  ${tw`sticky top-0 z-30 w-full text-gray-200`}
 `;
 
 const Nav = tw.nav`

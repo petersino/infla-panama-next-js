@@ -10,7 +10,7 @@ import HeroCarousel from "../components/Home/HeroCarousel";
 
 const Main = tw.main`
   max-w-screen-xl 
-  mt-24 
+  mt-14 
   px-8 
   overflow-hidden
   xl:px-16 
