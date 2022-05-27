@@ -4,6 +4,7 @@ import tw from "twin.macro";
 const MarginTop = tw.div`
   mt-24
 `;
+
 const nosotros = () => {
   return (
     <MarginTop>

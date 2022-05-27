@@ -6,7 +6,7 @@ import Link from "../Link";
 
 const FooterContainer = styled.footer`
   background-color: #242d57;
-  ${tw`w-full p-5 mt-20 text-gray-200  `}
+  ${tw`w-full p-5 mt-20 text-gray-200`}
 `;
 
 const FooterPadding = tw.div`

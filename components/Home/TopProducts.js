@@ -1,6 +1,6 @@
 import React from "react";
 import tw from "twin.macro";
-import { Container, H3 } from "../../styles/Container";
+import { Container, H3 } from "../../styles/Common";
 
 const ProductsContainer = tw.div`  
   flex

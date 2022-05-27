@@ -81,14 +81,20 @@ const Header = () => {
           />
         </LogoContainer>
         <LeftMenuContainer>
-          <Link href="/nosotros">
+          <Link href="/">
             <MenuElement>INICIO</MenuElement>
           </Link>
-          <MenuElement>PRODUCTOS</MenuElement>
-          <MenuElement>PROMOCIONES</MenuElement>
+          <Link href="/productos">
+            <MenuElement>PRODUCTOS</MenuElement>
+          </Link>
+          <Link href="/promociones">
+            <MenuElement>PROMOCIONES</MenuElement>
+          </Link>
         </LeftMenuContainer>
         <RightMenuContainer>
-          <MenuElement>QUIENES SOMOS</MenuElement>
+          <Link href="/nosotros">
+            <MenuElement>QUIÉNES SOMOS</MenuElement>
+          </Link>
           <MenuElement>CONTACTO</MenuElement>
           <Button
             href="https://api.whatsapp.com/send?phone=584244732572&text=%C2%A1Hola!%20Te%20escribo%20desde%20la%20p%C3%A1gina%20web."
