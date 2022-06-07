@@ -88,28 +88,6 @@ const ProductListOrSubCategory = () => {
             </Link>
             <p>Sky dancers</p>
           </ProductWrapper>
-          <ProductWrapper>
-            <Link href="http://www.instagram.com">
-              <ProductImage
-                alt="img"
-                src="https://picsum.photos/id/1049/230/230"
-                width="230"
-                height="230"
-              />
-            </Link>
-            <p>Maquinas e insumos</p>
-          </ProductWrapper>
-          <ProductWrapper>
-            <Link href="http://www.instagram.com">
-              <ProductImage
-                alt="img"
-                src="https://picsum.photos/id/1049/230/230"
-                width="230"
-                height="230"
-              />
-            </Link>
-            <p>Maquinas e insumos</p>
-          </ProductWrapper>
         </Products>
       </Container>
     </Main>
