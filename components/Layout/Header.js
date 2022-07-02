@@ -95,7 +95,9 @@ const Header = () => {
           <Link href="/nosotros">
             <MenuElement>QUIÉNES SOMOS</MenuElement>
           </Link>
-          <MenuElement>CONTACTO</MenuElement>
+          <Link href="/contacto">
+            <MenuElement>CONTACTO</MenuElement>
+          </Link>
           <Button
             href="https://api.whatsapp.com/send?phone=584244732572&text=%C2%A1Hola!%20Te%20escribo%20desde%20la%20p%C3%A1gina%20web."
             icon="logos:whatsapp"

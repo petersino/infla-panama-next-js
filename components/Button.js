@@ -11,12 +11,12 @@ const colors = {
 
 const ButtonComponent = styled.button`
   background-color: ${({ color }) => (color ? colors[color] : colors.blue)};
-  ${tw`flex items-center justify-center px-3 py-2 space-x-2 rounded-lg `};
+  ${tw`inline-flex items-center justify-center px-3 py-2 space-x-2 rounded-lg `};
 `;
 
 const LinkComponent = styled(Link)`
   background-color: ${({ color }) => (color ? colors[color] : colors.blue)};
-  ${tw`flex items-center justify-center px-3 py-2 space-x-2 rounded-lg `};
+  ${tw`inline-flex items-center justify-center px-3 py-2 ml-auto space-x-2 rounded-lg `};
 `;
 
 const Text = tw.span`
@@ -27,10 +27,12 @@ const Text = tw.span`
 
 const Button = ({ children, href, icon, color }) => {
   return href ? (
-    <LinkComponent href={href} color={color}>
-      <Icon style={{ fontSize: "22px", color: "#fff" }} icon={icon} />
-      <Text>{children}</Text>
-    </LinkComponent>
+    <div>
+      <LinkComponent href={href} color={color}>
+        <Icon style={{ fontSize: "22px", color: "#fff" }} icon={icon} />
+        <Text>{children}</Text>
+      </LinkComponent>
+    </div>
   ) : (
     <ButtonComponent color={color}>
       <Icon style={{ fontSize: "22px", color: "#fff" }} icon={icon} />
