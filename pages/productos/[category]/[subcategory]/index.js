@@ -26,7 +26,7 @@ const ProductImage = tw(Image)`
   w-full
 `;
 
-const ProductPageOrProductList = () => {
+const SubcategoriesPage = () => {
   return (
     <Main>
       <Container>
@@ -83,4 +83,4 @@ const ProductPageOrProductList = () => {
   );
 };
 
-export default ProductPageOrProductList;
+export default SubcategoriesPage;

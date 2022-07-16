@@ -60,7 +60,7 @@ const Line = tw.div`
   border-gray-300
 `;
 
-const SubProductPage = () => {
+const ProductPage = () => {
   return (
     <Main>
       <Container>
@@ -128,4 +128,4 @@ const SubProductPage = () => {
   );
 };
 
-export default SubProductPage;
+export default ProductPage;
